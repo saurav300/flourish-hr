@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Flourish HR Consultants – Protecting Your Business. Empowering Your People.</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header id="navbar">
+  <div class="nav-inner">
+    <a href="#" onclick="showView('home');return false" class="nav-logo">
+      <span class="nav-logo-main">Flourish <span>HR</span></span>
+      <span class="nav-logo-sub">Consultants</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#" onclick="showView('home');return false" class="active" id="nav-home">Home</a>
+      <a href="#" onclick="showView('about');return false" id="nav-about">About</a>
+      <a href="#" onclick="showView('services');return false" id="nav-services">Services</a>
+      <a href="#" onclick="showView('packages');return false" id="nav-packages">Packages</a>
+      <a href="#" onclick="showView('international');return false" id="nav-international">International</a>
+      <a href="#" onclick="showView('blog');return false" id="nav-blog">Insights</a>
+    </nav>
+    <button class="nav-btn" onclick="showView('contact');return false">Get In Touch</button>
+    <button class="mobile-toggle" onclick="toggleMobile()" id="mob-toggle">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mob-menu">
+    <div class="mobile-menu-inner">
+      <a href="#" onclick="showView('home');toggleMobile();return false">Home</a>
+      <a href="#" onclick="showView('about');toggleMobile();return false">About</a>
+      <a href="#" onclick="showView('services');toggleMobile();return false">Services</a>
+      <a href="#" onclick="showView('packages');toggleMobile();return false">Packages</a>
+      <a href="#" onclick="showView('international');toggleMobile();return false">International</a>
+      <a href="#" onclick="showView('blog');toggleMobile();return false">Insights</a>
+      <button class="nav-btn" onclick="showView('contact');toggleMobile();return false" style="border:none">Get In Touch</button>
+    </div>
+  </div>
+</header>
+
+<!-- ════════════════ HOME ════════════════ -->
+<div class="view active" id="view-home">
+  <div class="page">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-glow"></div>
+      <div class="hero-grid"></div>
+      <div class="hero-content container">
+        <div class="fade-up">
+          <span class="hero-badge">South African HR Consultancy</span>
+        </div>
+        <h1 class="fade-up" style="animation-delay:0.1s">
+          Strategic HR Solutions for
+          <span>Growing Businesses</span>
+          and Global Companies
+        </h1>
+        <p class="hero-body fade-up" style="animation-delay:0.2s">At Flourish HR Consultants, we help businesses navigate complex labour legislation, implement compliant HR frameworks, and build high-performing workplaces — so both employers and employees can thrive.</p>
+        <div class="hero-btns fade-up" style="animation-delay:0.3s">
+          <button class="btn-gold" onclick="showView('services')">Explore Our Services <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></button>
+          <button class="btn-ghost" onclick="showView('contact')">Contact Us</button>
+        </div>
+        <div class="hero-stats fade-up stagger" style="animation-delay:0.4s">
+          <div><p class="hero-stat-val">10+</p><p class="hero-stat-lbl">Years of Expertise</p></div>
+          <div><p class="hero-stat-val">BCEA</p><p class="hero-stat-lbl">Compliant Frameworks</p></div>
+          <div><p class="hero-stat-val">CCMA</p><p class="hero-stat-lbl">Representation</p></div>
+          <div><p class="hero-stat-val">100%</p><p class="hero-stat-lbl">Client Focused</p></div>
+        </div>
+      </div>
+      <div class="hero-chevron">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+      </div>
+    </section>
+
+    <!-- TAGLINE BAND -->
+    <div class="tagline-band">
+      <p>"Protecting Your Business. Empowering Your People."</p>
+    </div>
+
+    <!-- WHY PARTNER -->
+    <section class="why-section section-pad">
+      <div class="container">
+        <div class="section-center fade-up">
+          <p class="eyebrow eyebrow-dk">Our Advantage</p>
+          <h2>Why Partner With Us?</h2>
+        </div>
+        <div class="why-grid stagger">
+          <div class="why-card fade-up">
+            <div class="why-icon"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+            <h3>Deep Expertise in South African Labour Law</h3>
+            <p>We navigate complex legislation including BCEA, LRA, Employment Equity Act, POPIA, and COIDA so you can focus on running your business.</p>
+          </div>
+          <div class="why-card fade-up">
+            <div class="why-icon"><svg viewBox="0 0 24 24"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg></div>
+            <h3>Proactive, Not Reactive</h3>
+            <p>We help businesses identify and mitigate HR risks before they escalate into costly disputes or legal challenges.</p>
+          </div>
+          <div class="why-card fade-up">
+            <div class="why-icon"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+            <h3>Boutique Service with Enterprise-Level Impact</h3>
+            <p>Our clients benefit from personalised attention combined with professional, strategic HR expertise.</p>
+          </div>
+          <div class="why-card fade-up">
+            <div class="why-icon"><svg viewBox="0 0 24 24"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></div>
+            <h3>Data-Driven HR Solutions</h3>
+            <p>We utilise HR analytics and strategic insights to optimise workforce performance and organisational effectiveness.</p>
+          </div>
+          <div class="why-card fade-up">
+            <div class="why-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
+            <h3>Trusted by SMEs and Global Businesses</h3>
+            <p>From growing startups to international companies expanding into South Africa, we provide HR solutions that support long-term growth.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES OVERVIEW -->
+    <section class="services-overview section-pad">
+      <div class="container">
+        <div class="services-overview-head fade-up">
+          <div>
+            <p class="eyebrow eyebrow-lt">What We Offer</p>
+            <h2>Our Services</h2>
+          </div>
+          <button class="btn-outline-gold" onclick="showView('services')">View All Services <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></button>
+        </div>
+        <div class="svc-grid stagger">
+          <div class="svc-tile fade-up"><div class="svc-tile-bar"></div><h3>HR Advisory & Strategic Support</h3><p>Tailored strategies aligned with your business objectives and ongoing advisory for leadership teams.</p></div>
+          <div class="svc-tile fade-up"><div class="svc-tile-bar"></div><h3>Payroll & HR Administration</h3><p>Accurate, compliant payroll processing with statutory compliance including UIF and PAYE.</p></div>
+          <div class="svc-tile fade-up"><div class="svc-tile-bar"></div><h3>Recruitment & Talent Acquisition</h3><p>End-to-end recruitment, executive search, and onboarding support for SMEs and global companies.</p></div>
+          <div class="svc-tile fade-up"><div class="svc-tile-bar"></div><h3>Policy & Contract Development</h3><p>Custom employment documentation — contracts, HR policies, and workplace procedures.</p></div>
+          <div class="svc-tile fade-up"><div class="svc-tile-bar"></div><h3>Compliance & Risk Management</h3><p>Employment Equity planning, compliance audits, and labour legislation guidance.</p></div>
+          <div class="svc-tile fade-up"><div class="svc-tile-bar"></div><h3>Industrial Relations & CCMA Support</h3><p>Professional CCMA representation, disciplinary management, and conflict resolution.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERNATIONAL CTA -->
+    <section class="intl-cta-section section-pad">
+      <div class="container">
+        <div class="intl-cta-box fade-up">
+          <div>
+            <p class="eyebrow eyebrow-lt">For Global Companies</p>
+            <h2>Planning on Hiring in South Africa?</h2>
+            <p>We assist international companies with navigating the complexities of employing talent in South Africa while ensuring full compliance with local labour laws.</p>
+          </div>
+          <button class="btn-gold" onclick="showView('international')" style="white-space:nowrap;flex-shrink:0">Get Expert Advice <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- LEGISLATION STRIP -->
+    <section class="leg-strip">
+      <div class="container">
+        <p class="leg-strip-label">Key legislation we work with</p>
+        <div class="leg-items">
+          <span class="leg-item"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>BCEA</span>
+          <span class="leg-item"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>Labour Relations Act</span>
+          <span class="leg-item"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>Employment Equity Act</span>
+          <span class="leg-item"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>POPIA</span>
+          <span class="leg-item"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>COIDA</span>
+          <span class="leg-item"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>CCMA</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT STRIP -->
+    <section class="contact-strip section-pad">
+      <div class="container">
+        <div class="contact-strip-inner fade-up">
+          <p class="eyebrow eyebrow-dk">Reach Out</p>
+          <h2>Let's Talk About Your Business</h2>
+          <p>Whether you need HR advisory services, recruitment support, payroll administration, or labour law compliance guidance, our team is ready to assist.</p>
+          <div class="contact-links">
+            <a href="mailto:info@flourishhr.co.za" class="contact-link"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>info@flourishhr.co.za</a>
+            <a href="tel:+27696536332" class="contact-link"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.18h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.96a16 16 0 0 0 6.08 6.08l.98-.98a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>+27 69 653 6332</a>
+            <span class="contact-link"><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Cape Town, South Africa</span>
+          </div>
+          <button class="btn-dark" onclick="showView('contact')" style="margin:0 auto">Complete Our Contact Form <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></button>
+        </div>
+      </div>
+    </section>
+
+  </div>
+  <div id="footer-home"></div>
+</div>
+
+<!-- ════════════════ ABOUT ════════════════ -->
+<div class="view" id="view-about">
+  <div class="page">
+    <section class="page-header">
+      <div class="container">
+        <p class="eyebrow eyebrow-lt fade-up">Who We Are</p>
+        <h1 class="fade-up">About Flourish HR Consultants</h1>
+      </div>
+    </section>
+
+    <section class="about-main section-pad">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-text fade-up">
+            <p class="eyebrow eyebrow-dk">Our Story</p>
+            <h2>A Professional HR Advisory Firm Dedicated to Your Success</h2>
+            <p>Flourish HR Consultants is a professional HR advisory firm dedicated to helping organisations protect their businesses while empowering their people.</p>
+            <p>We specialise in delivering strategic HR advisory, labour law compliance, industrial relations support, payroll administration, and recruitment services to businesses operating within South Africa.</p>
+            <p>Whether your organisation requires ongoing HR advisory support, recruitment assistance, compliance guidance, or full outsourced HR services, Flourish HR Consultants provides the expertise and strategic insight needed to support your growth.</p>
+            <button class="btn-dark" onclick="showView('services')" style="margin-top:32px;display:inline-flex">View Our Services <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></button>
+          </div>
+          <div class="fade-up">
+            <div class="expertise-box">
+              <p class="eyebrow eyebrow-lt">Our Expertise</p>
+              <div class="expertise-grid">
+                <div class="expertise-item"><span class="expertise-dot"></span>Strategic HR Advisory</div>
+                <div class="expertise-item"><span class="expertise-dot"></span>Labour Law Compliance</div>
+                <div class="expertise-item"><span class="expertise-dot"></span>Industrial Relations</div>
+                <div class="expertise-item"><span class="expertise-dot"></span>Payroll Administration</div>
+                <div class="expertise-item"><span class="expertise-dot"></span>Recruitment & Talent</div>
+                <div class="expertise-item"><span class="expertise-dot"></span>Employment Equity</div>
+                <div class="expertise-item"><span class="expertise-dot"></span>CCMA Representation</div>
+                <div class="expertise-item"><span class="expertise-dot"></span>Policy & Contracts</div>
+              </div>
+            </div>
+            <div class="quote-box">
+              <p>"We partner with organisations to build effective HR systems, strong workplace cultures, and compliant employment practices."</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="values-section section-pad">
+      <div class="container">
+        <div class="section-center fade-up" style="text-align:center;margin-bottom:64px">
+          <p class="eyebrow eyebrow-lt">What Drives Us</p>
+          <h2 style="color:var(--cream)">Mission, Vision & Values</h2>
+        </div>
+        <div class="values-grid stagger">
+          <div class="value-card fade-up">
+            <div class="value-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="22" y1="12" x2="18" y2="12"/><line x1="6" y1="12" x2="2" y2="12"/><line x1="12" y1="2" x2="12" y2="6"/><line x1="12" y1="18" x2="12" y2="22"/></svg></div>
+            <h3>Our Mission</h3>
+            <p>To provide practical, legally compliant HR solutions that enable businesses to operate confidently within South Africa's complex labour landscape.</p>
+          </div>
+          <div class="value-card fade-up">
+            <div class="value-icon"><svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg></div>
+            <h3>Our Vision</h3>
+            <p>To be the trusted HR partner for businesses of every size — from local startups to global enterprises — building compliant, high-performing workplaces across South Africa.</p>
+          </div>
+          <div class="value-card fade-up">
+            <div class="value-icon"><svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
+            <h3>Our Values</h3>
+            <p>Integrity, expertise, and genuine partnership. Protecting businesses and empowering people are not competing goals — they are the same goal.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="gold-band">
+      <div class="container">
+        <div class="gold-band-inner">
+          <div><h3>Ready to protect your business?</h3><p>Get in touch with our team today to discuss your HR needs.</p></div>
+          <button class="btn-dark" onclick="showView('contact')">Contact Us <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ════════════════ SERVICES ════════════════ -->
+<div class="view" id="view-services">
+  <div class="page">
+    <section class="page-header">
+      <div class="container">
+        <p class="eyebrow eyebrow-lt fade-up">What We Do</p>
+        <h1 class="fade-up">Our Services</h1>
+        <p class="fade-up">From HR advisory to CCMA representation, we provide the full spectrum of HR services South African businesses need to operate compliantly and effectively.</p>
+      </div>
+    </section>
+
+    <section class="services-list section-pad">
+      <div class="container">
+
+        <div class="svc-card fade-up">
+          <div class="svc-card-left">
+            <div class="svc-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="hsl(46,65%,60%)" stroke-width="1.8" width="22" height="22"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
+            <h2>HR Advisory & Strategic Support</h2>
+            <p>We provide expert HR advisory services to help businesses develop effective workforce strategies aligned with their organisational goals.</p>
+          </div>
+          <div class="svc-card-right">
+            <p class="eyebrow">Includes</p>
+            <ul>
+              <li>Tailored HR strategies aligned with business objectives</li>
+              <li>On-call HR advisory support for managers and leadership teams</li>
+              <li>Performance management frameworks and systems</li>
+              <li>Employee relations guidance</li>
+              <li>HR best practice implementation</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="svc-card reverse fade-up">
+          <div class="svc-card-left">
+            <div class="svc-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="hsl(46,65%,60%)" stroke-width="1.8" width="22" height="22"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg></div>
+            <h2>Payroll & HR Administration</h2>
+            <p>Managing payroll and HR administration accurately is critical to maintaining compliance and employee trust.</p>
+          </div>
+          <div class="svc-card-right">
+            <p class="eyebrow">Includes</p>
+            <ul>
+              <li>Accurate and compliant payroll processing</li>
+              <li>Leave management and statutory compliance (UIF, PAYE)</li>
+              <li>Employee records and HR administration</li>
+              <li>Payroll reporting and support</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="svc-card fade-up">
+          <div class="svc-card-left">
+            <div class="svc-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="hsl(46,65%,60%)" stroke-width="1.8" width="22" height="22"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+            <h2>Recruitment & Talent Acquisition</h2>
+            <p>Attracting the right talent is essential to business growth. We assist organisations with identifying, recruiting, and onboarding the right candidates.</p>
+          </div>
+          <div class="svc-card-right">
+            <p class="eyebrow">Includes</p>
+            <ul>
+              <li>End-to-end recruitment for SMEs and international companies</li>
+              <li>Executive search and headhunting</li>
+              <li>Interview coordination and candidate screening</li>
+              <li>Job description development and role profiling</li>
+              <li>Employee onboarding support</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="svc-card reverse fade-up">
+          <div class="svc-card-left">
+            <div class="svc-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="hsl(46,65%,60%)" stroke-width="1.8" width="22" height="22"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div>
+            <h2>Policy & Contract Development</h2>
+            <p>Clear employment documentation protects both the employer and employees. We assist businesses with developing compliant HR documentation.</p>
+          </div>
+          <div class="svc-card-right">
+            <p class="eyebrow">Includes</p>
+            <ul>
+              <li>Custom HR policies and workplace procedures</li>
+              <li>Employment contracts (permanent, fixed-term, independent contractors, remote working)</li>
+              <li>Compliance with POPIA, COIDA, BCEA, and Labour Relations legislation</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="svc-card fade-up">
+          <div class="svc-card-left">
+            <div class="svc-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="hsl(46,65%,60%)" stroke-width="1.8" width="22" height="22"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+            <h2>Compliance & Risk Management</h2>
+            <p>Employment legislation in South Africa requires businesses to maintain strict compliance across all areas of the employment relationship.</p>
+          </div>
+          <div class="svc-card-right">
+            <p class="eyebrow">Includes</p>
+            <ul>
+              <li>Employment Equity planning and submissions</li>
+              <li>Workplace Skills Plans (WSP) and Annual Training Reports (ATR)</li>
+              <li>HR compliance audits</li>
+              <li>Labour legislation compliance guidance</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="svc-card reverse fade-up">
+          <div class="svc-card-left">
+            <div class="svc-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="hsl(46,65%,60%)" stroke-width="1.8" width="22" height="22"><path d="M14.5 10c-.83 0-1.5-.67-1.5-1.5v-5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5v5c0 .83-.67 1.5-1.5 1.5z"/><path d="M20.5 10H19V8.5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/><path d="M9.5 14c.83 0 1.5.67 1.5 1.5v5c0 .83-.67 1.5-1.5 1.5S8 21.33 8 20.5v-5c0-.83.67-1.5 1.5-1.5z"/><path d="M3.5 14H5v1.5c0 .83-.67 1.5-1.5 1.5S2 16.33 2 15.5 2.67 14 3.5 14z"/><path d="M14 14.5c0-.83.67-1.5 1.5-1.5h5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5h-5c-.83 0-1.5-.67-1.5-1.5z"/><path d="M15.5 19H14v1.5c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67 1.5-1.5-1.5z"/><path d="M10 9.5C10 8.67 9.33 8 8.5 8h-5C2.67 8 2 8.67 2 9.5S2.67 11 3.5 11h5c.83 0 1.5-.67 1.5-1.5z"/><path d="M8.5 5H10V3.5C10 2.67 9.33 2 8.5 2S7 2.67 7 3.5 7.67 5 8.5 5z"/></svg></div>
+            <h2>Industrial Relations & CCMA Support</h2>
+            <p>Workplace disputes require professional handling to protect both the organisation and its employees.</p>
+          </div>
+          <div class="svc-card-right">
+            <p class="eyebrow">Includes</p>
+            <ul>
+              <li>Employer representation at the Commission for Conciliation, Mediation and Arbitration (CCMA)</li>
+              <li>Disciplinary and grievance management</li>
+              <li>Workplace investigations</li>
+              <li>Conflict resolution and dispute management</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="services-overview section-pad-sm" style="background:var(--dark)">
+      <div class="container" style="text-align:center">
+        <h2 style="color:var(--cream);font-size:clamp(24px,3vw,36px);margin-bottom:16px" class="fade-up">Need a Custom HR Solution?</h2>
+        <p style="color:var(--muted-mid);max-width:480px;margin:0 auto 32px;font-family:var(--sans);font-size:15px;line-height:1.7" class="fade-up">Every business has unique HR needs. Contact us to discuss a solution tailored to your organisation.</p>
+        <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap" class="fade-up">
+          <button class="btn-gold" onclick="showView('packages')">View Packages <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></button>
+          <button class="btn-ghost" onclick="showView('contact')">Contact Us</button>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+
+<!-- ════════════════ PACKAGES ════════════════ -->
+<div class="view" id="view-packages">
+  <div class="page">
+    <section class="page-header">
+      <div class="container">
+        <p class="eyebrow eyebrow-lt fade-up">Flexible Support</p>
+        <h1 class="fade-up">HR Support Packages</h1>
+        <p class="fade-up">We recognise that every organisation has different HR requirements. Our flexible packages provide the level of expertise you need while ensuring full compliance with South African labour legislation.</p>
+      </div>
+    </section>
+
+    <section class="packages-section section-pad">
+      <div class="container">
+        <div class="pkg-grid stagger">
+
+          <div class="pkg-card normal fade-up">
+            <div class="pkg-body">
+              <p class="pkg-ideal">Ideal for: Small businesses and startups</p>
+              <p class="pkg-name">Essential HR Advisory</p>
+              <p class="pkg-desc">Professional HR advice and basic compliance support, ensuring that employment practices align with South African labour legislation.</p>
+              <ul class="pkg-features">
+                <li class="pkg-feature"><span class="pkg-check"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span>Ongoing HR advisory support</li>
+                <li class="pkg-feature"><span class="pkg-check"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span>Guidance on workplace policies</li>
+                <li class="pkg-feature"><span class="pkg-check"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span>Employment contract assistance</li>
+                <li class="pkg-feature"><span class="pkg-check"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span>Employee relations matters</li>
+                <li class="pkg-feature"><span class="pkg-check"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span>Labour law compliance guidance</li>
+              </ul>
+            </div>
+            <div class="pkg-footer"><button class="pkg-btn" onclick="showView('contact')">Get Started <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></button></div>
+          </div>
+
+          <div class="pkg-card featured fade-up">
+            <div class="pkg-featured-bar"><svg viewBox="0 0 24 24" width="14" height="14"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><span>Most Popular</span></div>
+            <div class="pkg-body">
+              <p class="pkg-ideal">Ideal for: Growing organisations</p>
+              <p class="pkg-name">HR Growth Partner</p>
+              <p class="pkg-desc">A comprehensive level of HR involvement with structured HR systems and more strategic support to drive long-term business growth.</p>
+              <ul class="pkg-features">
+                <li class="pkg-feature"><span class="pkg-check"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span>Everything in Essential</li>
+                <li class="pkg-feature"><span class="pkg-check"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span>Performance management frameworks</li>
+                <li class="pkg-feature"><span class="pkg-check"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span>Recruitment support</li>
+                <li class="pkg-feature"><span class="pkg-check"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span>Policy development</li>
+                <li class="pkg-feature"><span class="pkg-check"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span>Workforce management guidance</li>
+                <li class="pkg-feature"><span class="pkg-check"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span>HR structure building</li>
+              </ul>
+            </div>
+            <div class="pkg-footer"><button class="pkg-btn" onclick="showView('contact')">Get Started <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></button></div>
+          </div>
+
+          <div class="pkg-card normal fade-up">
+            <div class="pkg-body">
+              <p class="pkg-ideal">Ideal for: Full HR outsourcing</p>
+              <p class="pkg-name">Outsourced HR Department</p>
+              <p class="pkg-desc">A comprehensive solution allowing businesses to fully outsource their HR responsibilities to experienced professionals.</p>
+              <ul class="pkg-features">
+                <li class="pkg-feature"><span class="pkg-check"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span>Everything in HR Growth Partner</li>
+                <li class="pkg-feature"><span class="pkg-check"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span>Full HR function management</li>
+                <li class="pkg-feature"><span class="pkg-check"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span>Employee relations management</li>
+                <li class="pkg-feature"><span class="pkg-check"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span>CCMA representation</li>
+                <li class="pkg-feature"><span class="pkg-check"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span>Strategic HR support</li>
+                <li class="pkg-feature"><span class="pkg-check"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span>Dedicated HR professional</li>
+              </ul>
+            </div>
+            <div class="pkg-footer"><button class="pkg-btn" onclick="showView('contact')">Get Started <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></button></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="specialised section-pad">
+      <div class="container">
+        <p class="eyebrow eyebrow-lt fade-up">Add-On Services</p>
+        <h2 style="color:var(--cream);font-size:clamp(28px,4vw,48px);margin-bottom:16px" class="fade-up">Specialised HR Services</h2>
+        <p style="color:var(--muted-mid);max-width:600px;margin-bottom:64px;font-family:var(--sans);font-size:15px;line-height:1.7" class="fade-up">In addition to our HR support packages, we also provide specialised services that can be delivered independently or integrated into an existing package.</p>
+        <div class="spec-grid stagger">
+          <div class="spec-card fade-up"><div class="spec-bar"></div><h3>Payroll Services</h3><p>Professional payroll administration ensuring compliance with statutory requirements such as PAYE and UIF while maintaining accurate employee records.</p></div>
+          <div class="spec-card fade-up"><div class="spec-bar"></div><h3>Employment Equity (EE) Services</h3><p>Guidance and support with Employment Equity planning, compliance, and reporting obligations under the Employment Equity Act.</p></div>
+          <div class="spec-card fade-up"><div class="spec-bar"></div><h3>WSP & ATR Submissions</h3><p>Preparation and submission of Workplace Skills Plans and Annual Training Reports to ensure compliance with Skills Development requirements.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="gold-band">
+      <div class="container">
+        <div class="gold-band-inner">
+          <div><h3>Not sure which package is right for you?</h3><p>Contact us and we'll recommend the best solution for your business.</p></div>
+          <button class="btn-dark" onclick="showView('contact')">Talk to Us <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ════════════════ INTERNATIONAL ════════════════ -->
+<div class="view" id="view-international">
+  <div class="page">
+    <section class="page-header">
+      <div class="container">
+        <p class="eyebrow eyebrow-lt fade-up">International Clients</p>
+        <h1 class="fade-up">Hiring Employees in South Africa</h1>
+        <p class="fade-up">South Africa offers access to a highly skilled workforce, but businesses employing staff within the country must comply with specific labour legislation and regulatory requirements.</p>
+      </div>
+    </section>
+
+    <section class="intl-section section-pad">
+      <div class="container">
+        <div class="intl-header-grid">
+          <div class="intl-text fade-up">
+            <p class="eyebrow eyebrow-dk">Our Support</p>
+            <h2>We Navigate SA Labour Law for You</h2>
+            <p>We assist international companies with navigating the complexities of employing talent in South Africa while ensuring full compliance with local labour laws. Our local expertise protects your business from day one.</p>
+            <button class="btn-dark" onclick="showView('contact')" style="display:inline-flex">Contact Us for Expert Advice <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></button>
+          </div>
+          <div class="intl-support-grid stagger">
+            <div class="intl-item fade-up">
+              <div class="intl-item-icon"><svg viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></div>
+              <div><h4>SA Labour Law Overview</h4><p>Understanding key legislation governing employment relationships in South Africa.</p></div>
+            </div>
+            <div class="intl-item fade-up">
+              <div class="intl-item-icon"><svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div>
+              <div><h4>Employment Contracts</h4><p>Drafting compliant contracts aligned with BCEA, LRA, and independent contractor requirements.</p></div>
+            </div>
+            <div class="intl-item fade-up">
+              <div class="intl-item-icon"><svg viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg></div>
+              <div><h4>Payroll Compliance</h4><p>Ensuring proper payroll administration including tax, UIF, and all statutory requirements.</p></div>
+            </div>
+            <div class="intl-item fade-up">
+              <div class="intl-item-icon"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+              <div><h4>Employment Equity</h4><p>Guidance on obligations and compliance under the Employment Equity Act.</p></div>
+            </div>
+            <div class="intl-item fade-up">
+              <div class="intl-item-icon"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+              <div><h4>Employer Obligations (BCEA)</h4><p>Compliance with minimum standards — working hours, leave, and remuneration.</p></div>
+            </div>
+            <div class="intl-item fade-up">
+              <div class="intl-item-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
+              <div><h4>CCMA Representation</h4><p>Professional support and representation in workplace disputes and CCMA processes.</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="gold-band">
+      <div class="container">
+        <div class="gold-band-inner">
+          <div><h3>Planning on hiring in SA?</h3><p>Contact us now for trusted local HR expertise.</p></div>
+          <button class="btn-dark" onclick="showView('contact')">Get Expert Advice <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ════════════════ BLOG ════════════════ -->
+<div class="view" id="view-blog">
+  <div class="page">
+    <section class="page-header">
+      <div class="container">
+        <p class="eyebrow eyebrow-lt fade-up">HR Insights</p>
+        <h1 class="fade-up">Latest from Flourish HR</h1>
+        <p class="fade-up">Practical HR guidance, compliance updates, and strategic insights for South African businesses.</p>
+      </div>
+    </section>
+
+    <section class="blog-section section-pad">
+      <div class="container">
+        <div class="blog-grid stagger">
+          <div class="blog-card fade-up">
+            <div class="blog-card-top">
+              <p class="blog-card-tag">Risk Management</p>
+              <p class="blog-card-title">HR Risks That Could Cost Your Business</p>
+            </div>
+            <div class="blog-card-body">
+              <p class="blog-card-excerpt">Many businesses face significant financial and reputational risks due to non-compliant HR practices. These are the most common risks — and how we help mitigate them.</p>
+              <ul class="blog-risk-list">
+                <li class="blog-risk-item"><span class="blog-risk-dot"></span>Non-compliant employment contracts</li>
+                <li class="blog-risk-item"><span class="blog-risk-dot"></span>Poorly managed disciplinary processes</li>
+                <li class="blog-risk-item"><span class="blog-risk-dot"></span>Lack of employment equity compliance</li>
+                <li class="blog-risk-item"><span class="blog-risk-dot"></span>Missing workplace policies</li>
+                <li class="blog-risk-item"><span class="blog-risk-dot"></span>Incorrect payroll practices</li>
+              </ul>
+            </div>
+          </div>
+          <div class="blog-card fade-up">
+            <div class="blog-card-top" style="background:hsl(160,48%,14%)">
+              <p class="blog-card-tag">Compliance</p>
+              <p class="blog-card-title">Understanding Employment Equity in South Africa</p>
+            </div>
+            <div class="blog-card-body">
+              <p class="blog-card-excerpt">The Employment Equity Act requires designated employers to implement affirmative action measures and submit annual reports. Here's what you need to know.</p>
+              <ul class="blog-risk-list">
+                <li class="blog-risk-item"><span class="blog-risk-dot"></span>Who qualifies as a designated employer</li>
+                <li class="blog-risk-item"><span class="blog-risk-dot"></span>EE plan requirements and timelines</li>
+                <li class="blog-risk-item"><span class="blog-risk-dot"></span>Annual reporting obligations</li>
+                <li class="blog-risk-item"><span class="blog-risk-dot"></span>Penalties for non-compliance</li>
+              </ul>
+            </div>
+          </div>
+          <div class="blog-card fade-up">
+            <div class="blog-card-top" style="background:hsl(160,48%,16%)">
+              <p class="blog-card-tag">CCMA</p>
+              <p class="blog-card-title">What Employers Need to Know About CCMA Processes</p>
+            </div>
+            <div class="blog-card-body">
+              <p class="blog-card-excerpt">The CCMA handles hundreds of thousands of disputes each year. Being prepared and having professional representation makes all the difference in outcomes.</p>
+              <ul class="blog-risk-list">
+                <li class="blog-risk-item"><span class="blog-risk-dot"></span>Types of disputes referred to the CCMA</li>
+                <li class="blog-risk-item"><span class="blog-risk-dot"></span>Conciliation vs arbitration</li>
+                <li class="blog-risk-item"><span class="blog-risk-dot"></span>Importance of representation</li>
+                <li class="blog-risk-item"><span class="blog-risk-dot"></span>How to avoid common pitfalls</li>
+              </ul>
+            </div>
+          </div>
+          <div class="blog-card fade-up">
+            <div class="blog-card-top" style="background:hsl(46,30%,25%)">
+              <p class="blog-card-tag">International</p>
+              <p class="blog-card-title">Hiring in South Africa as a Foreign Company</p>
+            </div>
+            <div class="blog-card-body">
+              <p class="blog-card-excerpt">South Africa's labour laws apply to all employers operating within the country, regardless of where they are headquartered. Here's what global companies must know.</p>
+              <ul class="blog-risk-list">
+                <li class="blog-risk-item"><span class="blog-risk-dot"></span>Key legislation for foreign employers</li>
+                <li class="blog-risk-item"><span class="blog-risk-dot"></span>Permanent vs fixed-term employment</li>
+                <li class="blog-risk-item"><span class="blog-risk-dot"></span>Payroll and tax obligations</li>
+                <li class="blog-risk-item"><span class="blog-risk-dot"></span>How we support international companies</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+
+<!-- ════════════════ CONTACT ════════════════ -->
+<div class="view" id="view-contact">
+  <div class="page">
+    <section class="page-header">
+      <div class="container">
+        <p class="eyebrow eyebrow-lt fade-up">Get In Touch</p>
+        <h1 class="fade-up">Contact Flourish HR Consultants</h1>
+        <p class="fade-up">Whether you require HR advisory services, recruitment support, payroll administration, or labour law compliance guidance, our team is ready to assist.</p>
+      </div>
+    </section>
+
+    <section class="contact-section section-pad">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="fade-up">
+            <p style="font-family:var(--sans);font-size:11px;text-transform:uppercase;letter-spacing:0.12em;color:hsl(160,20%,50%);font-weight:600;margin-bottom:32px">Contact Information</p>
+            <div class="contact-info-cards">
+              <a href="mailto:info@flourishhr.co.za" class="contact-info-card" style="text-decoration:none">
+                <div class="ci-icon"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+                <div><p class="ci-label">Email</p><p class="ci-value">info@flourishhr.co.za</p></div>
+              </a>
+              <a href="tel:+27696536332" class="contact-info-card" style="text-decoration:none">
+                <div class="ci-icon"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.18h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.96a16 16 0 0 0 6.08 6.08l.98-.98a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+                <div><p class="ci-label">Phone</p><p class="ci-value">+27 69 653 6332</p></div>
+              </a>
+              <div class="contact-info-card">
+                <div class="ci-icon"><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+                <div><p class="ci-label">Location</p><p class="ci-value" style="font-size:14px;font-weight:600;color:hsl(160,48%,15%);font-family:var(--sans)">Cape Town, South Africa, 7441</p></div>
+              </div>
+              <div class="ci-tagline-box">
+                <p class="ci-label">Website</p>
+                <p class="ci-website">www.flourishhr.co.za</p>
+                <hr/>
+                <blockquote>"Protecting Your Business. Empowering Your People."</blockquote>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-box fade-up" id="contact-form-container">
+            <p class="form-title">Send Us a Message</p>
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label">First Name</label>
+                <input type="text" class="form-input" placeholder="Jane" id="f-first"/>
+              </div>
+              <div class="form-group">
+                <label class="form-label">Last Name</label>
+                <input type="text" class="form-input" placeholder="Smith" id="f-last"/>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Email Address</label>
+              <input type="email" class="form-input" placeholder="jane@company.com" id="f-email"/>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Company</label>
+              <input type="text" class="form-input" placeholder="Your Company" id="f-company"/>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Service Required</label>
+              <select class="form-input" id="f-service">
+                <option value="">Select a service...</option>
+                <option>HR Advisory & Strategic Support</option>
+                <option>Payroll & HR Administration</option>
+                <option>Recruitment & Talent Acquisition</option>
+                <option>Policy & Contract Development</option>
+                <option>Compliance & Risk Management</option>
+                <option>Industrial Relations & CCMA Support</option>
+                <option>International HR Support</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Message</label>
+              <textarea class="form-input" placeholder="Tell us about your HR needs..." id="f-message"></textarea>
+            </div>
+            <button class="form-submit" id="form-submit-btn" onclick="submitForm()">
+              Send Message
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+
+<!-- FOOTER (shared) -->
+<footer id="shared-footer">
+  <div class="container">
+    <div class="footer-main">
+      <div class="footer-brand">
+        <div>
+          <p class="footer-logo-main">Flourish <span>HR</span></p>
+          <p class="footer-logo-sub">Consultants</p>
+        </div>
+        <p>Protecting Your Business. Empowering Your People. Strategic HR solutions for growing businesses and global companies hiring in South Africa.</p>
+        <div class="footer-contact">
+          <a href="mailto:info@flourishhr.co.za" class="footer-contact-item"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>info@flourishhr.co.za</a>
+          <a href="tel:+27696536332" class="footer-contact-item"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.18h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.96a16 16 0 0 0 6.08 6.08l.98-.98a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>+27 69 653 6332</a>
+          <span class="footer-contact-item"><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Cape Town, South Africa, 7441</span>
+        </div>
+      </div>
+      <div>
+        <p class="footer-col-title">Services</p>
+        <ul class="footer-links">
+          <li><a href="#" onclick="showView('services');return false">HR Advisory</a></li>
+          <li><a href="#" onclick="showView('services');return false">Payroll Administration</a></li>
+          <li><a href="#" onclick="showView('services');return false">Recruitment</a></li>
+          <li><a href="#" onclick="showView('services');return false">Policy Development</a></li>
+          <li><a href="#" onclick="showView('services');return false">Compliance & Risk</a></li>
+          <li><a href="#" onclick="showView('services');return false">CCMA Support</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-col-title">Company</p>
+        <ul class="footer-links">
+          <li><a href="#" onclick="showView('about');return false">About Us</a></li>
+          <li><a href="#" onclick="showView('packages');return false">HR Packages</a></li>
+          <li><a href="#" onclick="showView('international');return false">International Clients</a></li>
+          <li><a href="#" onclick="showView('blog');return false">Insights</a></li>
+          <li><a href="#" onclick="showView('contact');return false">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Flourish HR Consultants. All rights reserved.</p>
+      <p>www.flourishhr.co.za</p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
